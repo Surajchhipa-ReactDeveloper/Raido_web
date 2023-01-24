@@ -1,0 +1,250 @@
+.blur-conainer {
+    height: 7rem;
+    position: fixed;
+    width: 100%;
+    /* z-index: -1111; */
+    background-color: rgba(0, 0, 0, 0.288);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    /* z-index: 100; */
+}
+
+/* 
+********************************************************************
+NavBar blur container css End
+*********************************************************************** 
+*/
+/* 
+********************************************************************
+NavBar Container css Start
+*********************************************************************** 
+*/
+.NavBar-container {
+    border-bottom: 2px solid #93A0A7;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 7rem;
+    padding: 0rem 5rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    /* z-index: -111; */
+
+}
+
+/* 
+********************************************************************
+NavBar Container css End
+*********************************************************************** 
+*/
+/* 
+********************************************************************
+NavBar Logo css Start
+*********************************************************************** 
+*/
+.NavBar-logo {
+    /* border: 2px solid green; */
+    font-size: 3rem;
+    font-family: var(--Poppins);
+    font-weight: bold;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.NavBar-logo a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+/* 
+********************************************************************
+NavBar Logo css End
+*********************************************************************** 
+*/
+/* 
+********************************************************************
+NavBar Links css Start
+*********************************************************************** 
+*/
+.NavBar-links {
+    /* border: 2px solid gold; */
+    height: 8rem;
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+
+.Navigation-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100rem;
+}
+
+.NavBar-links ul li {
+    list-style: none;
+    font-size: 2rem;
+    font-family: var(--Mulish);
+}
+
+.NavBar-links ul li a {
+    text-decoration: none;
+    padding-bottom: 2.1rem;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+/* 
+********************************************************************
+NavBar Links css End
+*********************************************************************** 
+*/
+/* 
+********************************************************************
+NavBar Links Active Class css Start
+*********************************************************************** 
+*/
+.nav-item .active {
+    border-bottom: 2px solid #F49F0A;
+    font-weight: bold;
+    color: #F49F0A !important;
+}
+
+/* 
+********************************************************************
+NavBar Links Active Class css End
+*********************************************************************** 
+*/
+
+/* 
+********************************************************************
+menu-button container css Start
+*********************************************************************** 
+*/
+.Menu-button-container {
+    display: none;
+}
+
+/* 
+********************************************************************
+menu-button container css End
+*********************************************************************** 
+*/
+
+/* 
+********************************************************************
+Responsive css Start in nav bar --1280px 
+*********************************************************************** 
+*/
+@media screen and (max-width:1280px) {
+    html {
+        font-size: 50%;
+    }
+}
+
+/* 
+********************************************************************
+Responsive css Start in nav bar --1070px 
+*********************************************************************** 
+*/
+@media screen and (max-width:1070px) {
+    html {
+        font-size: 45%;
+    }
+}
+
+/* 
+********************************************************************
+Responsive css Start in nav bar --950px 
+*********************************************************************** 
+*/
+@media screen and (max-width:980px) {
+
+    /* 
+******************************************************************
+links list container for mobile size css Start
+*********************************************************************** 
+*/
+    .Navigation-links {
+        display: none;
+    }
+
+    .mobile-size {
+        display: flex;
+        position: absolute;
+        top: 7rem;
+        left: 0;
+        right: 0;
+        /* border: 2px solid green; */
+        width: 100%;
+        height: 100vh;
+        background-color: #0A0D13;
+        flex-direction: column;
+        gap: 4rem;
+        justify-content: center;
+        align-items: center;
+        backdrop-filter: blur(10px);
+    }
+
+    .NavBar-links ul li a {
+        text-decoration: none;
+        padding-bottom: 0.5rem;
+        color: #FFFFFF;
+        font-size: 3rem;
+    }
+
+    .NavBar-links {
+        gap: 1rem;
+    }
+
+    .menu-close,
+    .open-display {
+        display: none;
+    }
+
+    /*
+******************************************************************
+links list container for mobile size css End
+*********************************************************************** 
+*/
+    /* 
+********************************************************************
+menu-button container and icons css Start
+*********************************************************************** 
+*/
+    .Menu-button-container {
+        display: flex;
+        /* border: 2px solid green; */
+        /* height: 8rem; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        /* width: 10rem; */
+        padding: 0.5rem 1rem;
+        background-color: #FFFFFF;
+    }
+
+    .Menu-button-container [name='open-button'] {
+        width: 3.5rem;
+        height: 3.5rem;
+        cursor: pointer;
+        /* background-color: #FFFFFF; */
+        /* padding: 1rem 2rem; */
+        /* color: black; */
+    }
+
+    .Menu-button-container [name='close-button'] {
+        width: 3.5rem;
+        height: 3.5rem;
+        cursor: pointer;
+        /* background-color: #FFFFFF; */
+    }
+
+    /* 
+********************************************************************
+menu-button container and icons css End
+*********************************************************************** 
+*/
+}

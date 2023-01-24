@@ -1,0 +1,135 @@
+/* 
+**************************************************************
+Home section-Font importing playFair-display, mulish
+*********************************************************************** 
+*/
+
+/* 
+**************************************************************
+Home section-container css Start
+*********************************************************************** 
+*/
+.home-gradiant-container {
+    background-image: url("/src/Assets/Home-background-img.jpg");
+    height: 100vh;
+    /* z-index: -1111; */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.home-container {
+    /* border: 2px solid green; */
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.473), rgba(0, 0, 0, 0.637));
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding-left: 5rem;
+    gap: 2rem;
+}
+
+/* 
+********************************************************************
+Home section-container css End
+*********************************************************************** 
+*/
+/* 
+********************************************************************
+Home section-heading css Start
+*********************************************************************** 
+*/
+.home-heading-container {
+    /* border: 2px solid green; */
+    width: 50%;
+}
+
+.home-heading-container h1 {
+    font-size: var(--Heading-Font);
+    color: #FFFFFF;
+    font-family: var(--PlayFair);
+}
+
+/* 
+********************************************************************
+Home section-heading css End
+*********************************************************************** 
+*/
+/* 
+********************************************************************
+Home section-pera-and-arow css Start
+*********************************************************************** 
+*/
+.hero-pera-container {
+    /* border: 2px solid white; */
+    display: flex;
+    color: #FFFFFF;
+    font-size: var(--Pera-Size);
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 2rem;
+    font-family: var(--Mulish);
+}
+
+/* 
+********************************************************************
+Home section-pera-and-arow css End
+*********************************************************************** 
+*/
+
+/* 
+********************************************************************
+Responsive Home section 800px css Start
+*********************************************************************** 
+*/
+@media screen and (max-width:800px) {
+
+    .home-container{
+        padding-left: 5rem;
+    }
+
+/* 
+********************************************************************
+Home section-heading css Start
+*********************************************************************** 
+*/
+    .home-heading-container {
+        /* border: 2px solid green; */
+        width: 80%;
+    }
+
+    /* 
+********************************************************************
+Home section-heading css End
+*********************************************************************** 
+*/
+}
+
+/* 
+********************************************************************
+Responsive Home section 600px css Start
+*********************************************************************** 
+*/
+
+@media screen and (max-width:600px) {
+
+    /* 
+********************************************************************
+Home section-heading css Start
+*********************************************************************** 
+*/
+    .home-heading-container {
+        /* border: 2px solid green; */
+        width: 80%;
+    }
+
+    .home-heading-container h1 {
+        font-size: var(--Responsive-Heading);
+    }
+
+    /* 
+********************************************************************
+Home section-heading css End
+*********************************************************************** 
+*/
+}

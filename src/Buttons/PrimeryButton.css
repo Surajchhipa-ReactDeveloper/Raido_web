@@ -1,0 +1,62 @@
+/* 
+********************************************************************
+Primery-Button Container css Start
+*********************************************************************** 
+*/
+.PrimeryButton-container{
+    /* border: 2px solid green; */
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    justify-content: space-between;
+    height: 5rem;
+    cursor: pointer;
+}
+/* 
+********************************************************************
+Primery-Button Container css End
+*********************************************************************** 
+*/
+/* 
+********************************************************************
+Primery-Button text container css Start
+*********************************************************************** 
+*/
+
+.PrimeryButton-text{
+    /* border: 2px solid green; */
+    /* padding: 1rem 2rem; */
+    width: 100%;
+    background-color: #F49F0A;
+    font-size: 1.6rem;
+    height: 5rem;
+    display: grid;
+    place-items: center;
+    font-family: 'mulish';
+    font-weight: bold;
+    padding: 0rem 2rem;
+}
+/* 
+********************************************************************
+Primery-Button text container css End
+*********************************************************************** 
+*/
+/* 
+********************************************************************
+Primery-Button logo container css Start
+*********************************************************************** 
+*/
+.PrimeryButton-logo{
+    /* border: 2px solid red; */
+    background-color: #E89400;
+    /* padding: 1rem 2rem; */
+    width: 6rem;
+    height: 5rem;
+    display: grid;
+    place-items: center;
+}
+/* 
+********************************************************************
+Primery-Button logo container css End
+*********************************************************************** 
+*/

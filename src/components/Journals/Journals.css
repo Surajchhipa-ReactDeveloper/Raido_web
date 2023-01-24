@@ -1,0 +1,99 @@
+/* 
+********************************************************************
+Journals container css Start
+*********************************************************************** 
+*/
+.Journals-container {
+    /* border: 2px solid green; */
+    padding: 0rem 5rem;
+    background-color: #0A0D13;
+    padding-top: 7rem;
+    padding-bottom: 5rem;
+}
+
+/* 
+********************************************************************
+Journals container css End
+*********************************************************************** 
+*/
+
+/* 
+********************************************************************
+Journals Heading and pera container css Start
+*********************************************************************** 
+*/
+.Journal-Heading-and-Pera-container {
+    /* border: 2px solid green; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+/* 
+********************************************************************
+Journals Heading and pera container css Start
+*********************************************************************** 
+*/
+
+/* 
+********************************************************************
+Journals heading container css Start
+*********************************************************************** 
+*/
+.Journal-heading-container h1 {
+    /* border: 2px solid green; */
+    font-size: var(--Heading-Font);
+    color: var(--Heading-Color);
+    font-family: var(--Play-Fair);
+}
+
+.Journal-pera-container p {
+    /* border: 2px solid green; */
+    font-size: var(--Pera-Size);
+    color: var(--Heading-Color);
+    font-family: var(--Mulish);
+}
+
+/* 
+********************************************************************
+Journals heading container css End
+*********************************************************************** 
+*/
+/* 
+********************************************************************
+Journals Card main container css Start
+*********************************************************************** 
+*/
+
+.JCard-container{
+    /* border: 2px solid green; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+    margin-top: 3rem;
+}
+/* 
+********************************************************************
+Journals Card main container css End
+*********************************************************************** 
+*/
+/* 
+********************************************************************
+Journals Button conatainer  css Start
+*********************************************************************** 
+*/
+
+.Journal-button-container{
+    display: grid;
+    place-items: center;
+    margin-top: 4rem;
+}
+/* 
+********************************************************************
+Journals Button conatainer  css End
+*********************************************************************** 
+*/

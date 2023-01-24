@@ -1,0 +1,93 @@
+/* 
+********************************************************************
+Blog container css Start
+*********************************************************************** 
+*/
+.Blog-container {
+    /* border: 2px solid green; */
+    background-color: #0A0D13;
+    height: fit-content;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+}
+
+/* 
+********************************************************************
+Blog container css Start
+*********************************************************************** 
+*/
+/* 
+********************************************************************
+Blog heading and pera container css Start
+*********************************************************************** 
+*/
+
+.Blog-pera-heading-container {
+    /* border: 2px solid green; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    padding: 0rem 5rem;
+}
+
+/* 
+********************************************************************
+Blog heading and pera container css End
+*********************************************************************** 
+*/
+/* 
+********************************************************************
+Blog heading container css Start
+*********************************************************************** 
+*/
+.Blog-heading-container h1 {
+    /* border: 2px solid red; */
+    font-size: var(--Heading-Font);
+    color: var(--Heading-Color);
+    font-family: var(--PlayFair);
+}
+
+/* 
+********************************************************************
+Blog heading container css End
+*********************************************************************** 
+*/
+/* 
+********************************************************************
+Blog Pera container css Start
+*********************************************************************** 
+*/
+.Blog-pera-container p {
+    /* border: 2px solid red; */
+    font-size: var(--Pera-Size);
+    color: var(--Heading-Color);
+    font-family: var(--Mulish);
+}
+
+/* 
+********************************************************************
+Blog Pera container css End
+*********************************************************************** 
+*/
+/* 
+********************************************************************
+Blog Cards container css Start
+*********************************************************************** 
+*/
+
+.Blog-imgae-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 3rem;
+    height: fit-content;
+}
+
+/* 
+********************************************************************
+Blog Cards container css Start
+*********************************************************************** 
+*/

@@ -1,0 +1,106 @@
+/* 
+******************************************************************
+BlogCard container css Start
+*********************************************************************** 
+*/
+.BlogCard-container {
+    /* border: 2px solid green; */
+    width: calc(100% / 4);
+}
+
+/* 
+******************************************************************
+BlogCard container css End
+*********************************************************************** 
+*/
+.BlogCard-Gradient {
+    background-image: linear-gradient(rgba(0, 0, 0, 0), black);
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    align-items: flex-end;
+}
+
+/* 
+******************************************************************
+BlogCard Image Container css Start
+*********************************************************************** 
+*/
+#BCard-1 {
+    background-image: url('/src/Assets/BCard-1.jpg');
+    width: 100%;
+    height: 50vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#BCard-2 {
+    background-image: url('/src/Assets/BCard-2.jpg');
+    width: 100%;
+    height: 50vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#BCard-3 {
+    background-image: url('/src/Assets/BCard-3.jpg');
+    width: 100%;
+    height: 50vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#BCard-4 {
+    background-image: url('/src/Assets/BCard-4.jpg');
+    width: 100%;
+    height: 50vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* 
+******************************************************************
+BlogCard Image Container css End
+*********************************************************************** 
+*/
+
+/* 
+******************************************************************
+BlogCard Pera Container css Start
+*********************************************************************** 
+*/
+.BlogCard-pera-container {
+    /* border: 2px solid green; */
+    font-size: var(--Pera-Size);
+    color: var(--Heading-Color);
+    padding: 0rem 2rem;
+    padding-bottom: 2rem;
+}
+
+/* 
+******************************************************************
+BlogCard Pera Container css End
+*********************************************************************** 
+*/
+
+/* 
+******************************************************************
+BlogCard Tablet css Start 980px
+*********************************************************************** 
+*/
+@media screen and (max-width:980px) {
+
+    .BlogCard-container {
+        width: 30rem;
+    }
+}
+
+/* 
+******************************************************************
+BlogCard Tablet css End 980px
+*********************************************************************** 
+*/

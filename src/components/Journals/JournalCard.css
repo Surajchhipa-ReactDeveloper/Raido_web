@@ -1,0 +1,113 @@
+/* 
+********************************************************************
+Journals Card container css Start
+*********************************************************************** 
+*/
+.JournalCard-container {
+    /* border: 2px solid red; */
+    width: 30rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+}
+
+/* 
+********************************************************************
+Journals Card container css End
+*********************************************************************** 
+*/
+/* 
+********************************************************************
+Journals Card img css Start
+*********************************************************************** 
+*/
+.JournalCard-imgae-container img {
+    width: 100%;
+    object-fit: cover;
+}
+
+/* 
+********************************************************************
+Journals Card img css End
+*********************************************************************** 
+*/
+/* 
+********************************************************************
+Journals Card color container css Start
+*********************************************************************** 
+*/
+.JournalCard-color-container {
+    width: 100%;
+    /* height: 15rem; */
+    background-color: #1F242E;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1.5rem;
+    gap: 1rem;
+}
+
+/* 
+********************************************************************
+Journals Card color container css End
+*********************************************************************** 
+*/
+/* 
+********************************************************************
+Journals Card JournalCard-userName-and-Image-container css Start
+*********************************************************************** 
+*/
+.JournalCard-userName-and-Image-container{
+    /* border: 2px solid green; */
+    display: flex;
+    /* justify-content: ; */
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.User-Name-container p{
+    font-size: 1.5rem;
+    font-family: var(--Mulish);
+    color: var(--Heading-Color);
+}
+
+/* 
+********************************************************************
+Journals Card JournalCard-userName-and-Image-container css End
+*********************************************************************** 
+*/
+/* 
+********************************************************************
+Journals Card main pera container css Start
+*********************************************************************** 
+*/
+.JournalCard-pera-container{
+    font-size: var(--Pera-Size);
+    font-family: var(--Mulish);
+    color: var(--Heading-Color);
+}
+/* 
+********************************************************************
+Journals Card main pera container css End
+*********************************************************************** 
+*/
+
+/* 
+********************************************************************
+Journals Card Date and Share icon container css Start
+*********************************************************************** 
+*/
+.JournalCard-data-and-shareIcon{
+    /* border: 2px solid green; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.5rem;
+    color: #757D8C;
+    font-family: var(--Mulish);
+}
+/* 
+********************************************************************
+Journals Card Date and Share icon container css End
+*********************************************************************** 
+*/

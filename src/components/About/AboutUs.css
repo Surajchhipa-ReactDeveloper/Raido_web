@@ -1,0 +1,204 @@
+/* 
+********************************************************************
+About us container css Start 
+*********************************************************************** 
+*/
+.About-container {
+    /* border: 2px solid green; */
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* 
+********************************************************************
+About us container css End
+*********************************************************************** 
+*/
+/* 
+********************************************************************
+About us color container css Start
+*********************************************************************** 
+*/
+
+.about-color-container {
+    width: 50%;
+    height: 100vh;
+    /* border: 2px solid red; */
+    background-color: #0A0D13;
+    padding-left: 5rem;
+    display: flex;
+    gap: 3rem;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* 
+********************************************************************
+About us color container css End
+*********************************************************************** 
+*/
+/* 
+********************************************************************
+About us image container css Start
+*********************************************************************** 
+*/
+.about-img-container {
+    width: 50%;
+    height: 100vh;
+    /* border: 2px solid black; */
+    /* background-color: black; */
+    z-index: -11;
+    background-image: url('/src/Assets/aboutus.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+/* 
+********************************************************************
+About us image container css End
+*********************************************************************** 
+*/
+/* 
+********************************************************************
+About us heading css Start
+*********************************************************************** 
+*/
+
+.about-heading-container h1 {
+    color: var(--Heading-Color);
+    font-size: var(--Heading-Font);
+    font-family: var(--PlayFair);
+}
+
+/* 
+********************************************************************
+About us heading css End
+*********************************************************************** 
+*/
+/* 
+********************************************************************
+About us Pera css Start
+*********************************************************************** 
+*/
+
+.about-pera-container p {
+    color: var(--Heading-Color);
+    font-size: var(--Pera-Size);
+    font-family: var(--Mulish);
+    width: 80%;
+}
+
+/* 
+********************************************************************
+About us Pera css End
+*********************************************************************** 
+*/
+
+/* 
+********************************************************************
+About us Tour-gider-box css Start
+*********************************************************************** 
+*/
+
+.upar-container {
+    /* border: 2px solid red; */
+    width: 60vw;
+    display: flex;
+    flex-direction: row;
+    height: 12rem;
+    background-color: #1F242E;
+    box-shadow: 5px 4px 8px 0rem #000000ba;
+}
+
+.tour-guid-box {
+    width: 33.33rem;
+    /* height: rem; */
+    /* border: 2px solid green; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: var(--Heading-Color);
+}
+
+.about-tour-guid-box-number {
+    font-family: var(--PlayFair);
+    font-size: 3rem;
+    width: 100%;
+    text-align: center;
+}
+
+.about-tour-guid-box-text {
+    font-family: var(--Mulish);
+    font-size: 1.5rem;
+    width: 100%;
+    text-align: center;
+    padding-top: 0.5rem;
+}
+
+.border-left {
+    border-right: 2px solid #2B313C;
+}
+
+/* 
+********************************************************************
+About us Tour-gider-box css End
+*********************************************************************** 
+*/
+
+/* 
+********************************************************************
+Meadia quereis Start 980px
+*********************************************************************** 
+*/
+@media screen and (max-width:980px) {
+    .about-img-container{
+        display: none;
+    }
+    .about-color-container{
+        width: 100%;
+    }
+}
+/* 
+********************************************************************
+Meadia quereis End 980px
+*********************************************************************** 
+*/
+
+/* 
+********************************************************************
+Meadia quereis Start 700px
+*********************************************************************** 
+*/
+@media screen and (max-width:700px) {
+    .upar-container{
+        height: 10rem;
+        /* width: 45vh; */
+    }
+}
+/* 
+********************************************************************
+Meadia quereis End 700px
+*********************************************************************** 
+*/
+
+/* 
+********************************************************************
+Meadia quereis Start 400px
+*********************************************************************** 
+*/
+@media screen and (max-width:400px) {
+    .upar-container{
+        height: 10rem;  
+        width: 45vh;
+    }
+}
+/* 
+********************************************************************
+Meadia quereis End 400px
+*********************************************************************** 
+*/
