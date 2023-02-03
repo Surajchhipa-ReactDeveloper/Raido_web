@@ -1,7 +1,9 @@
-import React from "react";
+import React, { useEffect } from "react";
 import PrimeryButton from "../../Buttons/PrimeryButton";
 import JournalCard from "./JournalCard";
 import './Journals.css';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const shareIcon = (
     <svg id="_7f59fd7eca5c4dfb67076eb439d10531" data-name="7f59fd7eca5c4dfb67076eb439d10531" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
@@ -25,6 +27,9 @@ const JournalArrow = (
 )
 
 const Journals = () => {
+    useEffect(() =>{
+        AOS.init();
+    },[])
     return (
         <>
             <div className="Journals-container" id="Journals">
@@ -36,7 +41,7 @@ const Journals = () => {
                         <p>A journal is a place to record new things you have discovered while exploring various places you visit.</p>
                     </div>
                 </div>
-                <div className="JCard-container">
+                <div className="JCard-container" data-aos = 'fade-up'>
                     <JournalCard
                         img="/Assets/JCard-1.png"
                         userImg="/Assets/JCardUser-1.png"

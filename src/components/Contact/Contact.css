@@ -1,7 +1,209 @@
-.Contect{
-    border: 2px solid green;
-    height: 80vh;
-    font-size: x-large;
-    display: grid;
-    place-items: center;
+/* 
+**************************************************************
+contact container css Start
+*********************************************************************** 
+*/
+
+.Contact-container {
+    /* border: 2px solid green; */
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.075));
+    flex-wrap: wrap;
+    padding: 0rem 5rem;
+    margin-bottom: 5rem;
+}
+
+/* 
+**************************************************************
+contact container css End
+*********************************************************************** 
+*/
+/* 
+**************************************************************
+contact callus and sendus container css Start
+*********************************************************************** 
+*/
+
+
+.contact-callus-sendus{
+    display: flex;
+    gap: 3rem;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+/* 
+**************************************************************
+contact callus and sendus container css End
+*********************************************************************** 
+*/
+
+
+/* 
+**************************************************************
+contact heading pera container css Start
+*********************************************************************** 
+*/
+
+.Contact-heading-pera-container {
+    /* border: 2px solid white; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 40rem;
+    gap: 2rem;
+}
+
+/* 
+**************************************************************
+contact heading pera container css End
+*********************************************************************** 
+*/
+/* 
+**************************************************************
+Contact heading container h1 css Start
+*********************************************************************** 
+*/
+.Contact-heading-container h1 {
+    color: var(--Heading-Color);
+    font-size: var(--Heading-Font);
+    font-family: var(--Play-Fair);
+}
+
+/* 
+**************************************************************
+Contact heading container h1 css End
+*********************************************************************** 
+*/
+/* 
+**************************************************************
+Contact pera container p css Start
+*********************************************************************** 
+*/
+.Contact-pera-container p {
+    color: var(--Heading-Color);
+    font-size: var(--Pera-Size);
+    font-family: var(--Mulish);
+}
+
+/* 
+**************************************************************
+Contact pera container p css End
+*********************************************************************** 
+*/
+
+/* 
+**************************************************************
+Contact call us container css Start
+*********************************************************************** 
+*/
+.Contact-call-us-container {
+    border: 2px solid white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 35rem;
+    height: 35rem;
+    border-radius: 100%;
+    gap: 2rem;
+    background-color: rgba(255, 255, 255, 0.075);
+    user-select: none;
+}
+
+/* 
+**************************************************************
+Contact call us container css End
+*********************************************************************** 
+*/
+/* 
+**************************************************************
+Contact callus heading container css Start 
+*********************************************************************** 
+*/
+.Contact-callus-heaidng-container h1 {
+    /* border: 2px solid black; */
+    color: var(--Heading-Color);
+    font-size: var(--Heading-Font);
+    font-family: var(--Play-Fair);
+}
+
+.Contact-callus-number-container p {
+    color: var(--Heading-Color);
+    font-size: var(--Pera-Size);
+    font-family: var(--Mulish);
+}
+
+.Contact-callus-pera-container p {
+    color: var(--Heading-Color);
+    font-size: var(--Pera-Size);
+    font-family: var(--Mulish);
+}
+
+/* 
+**************************************************************
+Contact callus heading container css Start 
+*********************************************************************** 
+*/
+
+/* 
+**************************************************************
+Contact sendus container css Start
+*********************************************************************** 
+*/
+
+.Contact-sendus-container {
+    border: 2px solid white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 35rem;
+    text-align: center;
+    height: 35rem;
+    border-radius: 100%;
+    gap: 2rem;
+    background-color: rgba(255, 255, 255, 0.075);
+    user-select: none;
+}
+
+/* 
+**************************************************************
+Contact sendus container css End
+*********************************************************************** 
+*/
+/* 
+**************************************************************
+Contact sendus heaidng container css Start
+*********************************************************************** 
+*/
+.Contact-sendus-heaidng-container h1 {
+    /* border: 2px solid black; */
+    color: var(--Heading-Color);
+    font-size: var(--Heading-Font);
+    font-family: var(--Play-Fair);
+}
+
+/* 
+**************************************************************
+Contact sendus heaidng container css End
+*********************************************************************** 
+*/
+
+@media screen and (max-width:840px) {
+    .Contact-heading-pera-container{
+        width: 100%;
+        text-align: center;
+    }
+    .Contact-container{
+        height: fit-content;
+        padding-top: 8rem;
+        padding-bottom: 8rem;
+    }
 }

@@ -1,0 +1,126 @@
+.footer {
+    height: 100vh;
+    /* border: 2px solid white; */
+    padding-top: 10rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    padding-bottom: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10rem;
+}
+
+
+
+.footer-uper-divs {
+    /* border: 2px solid gray; */
+    display: flex;
+    flex-direction: column;
+    gap: 3.5rem;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+}
+
+.main-logo-container h1 {
+    font-size: 3rem;
+    color: var(--Heading-Color);
+    font-family: var(--Poppins);
+}
+
+.socialMedia-icons-container {
+    /* border: 2px solid greenyellow; */
+    display: flex;
+    gap: 5rem;
+    padding: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.socialMedia-icons-container .facebook, .instagram, .twitter, .linkedin{
+    cursor: pointer;
+    /* border: 2px solid green; */
+    /* padding: 1rem; */
+    width: 5rem;
+    height: 5rem;
+    display: grid;
+    place-items: center;
+    border-radius: 100%;
+    transition: 0.3s;
+}
+
+.footer-pera-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.footer-pera-container p {
+    /* border: 2px solid white; */
+    font-size: var(--Pera-Size);
+    color: var(--Heading-Color);
+    font-family: var(--Mulish);
+    width: 80%;
+    text-align: center;
+}
+
+.footer-links-container {
+    color: var(--Heading-Color);
+}
+
+.Footer-navigation {
+    /* border: 2px solid green; */
+    display: flex;
+    gap: 3rem;
+    list-style: none;
+    flex-wrap: wrap;
+    /* flex-direction: column; */
+}
+
+.Footer-navigation li {
+    font-size: 2rem;
+    font-family: var(--Mulish);
+    user-select: none;
+}
+
+.Footer-navigation li a {
+    cursor: pointer;
+    transition: 0.3s;
+
+}
+
+.copyright-container p {
+    color: var(--Heading-Color);
+    font-size: var(--Pera-Size);
+    font-family: var(--Mulish);
+    border-top: 2px solid #D8D8D8;
+    width: 80vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 2rem;
+    margin-top: 2rem;
+}
+
+@media screen and (max-width:650px) {
+    .footer-uper-divs {
+        width: 100%;
+    }
+
+    .footer-pera-container p {
+        width: 100%;
+    }
+}
+
+.Footer-navigation li a:hover{
+    color: #F49F0A;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.facebook:hover, .instagram:hover, .twitter:hover, .linkedin:hover{
+    background-color: #F49F0A;
+    transition: 0.3s;
+}

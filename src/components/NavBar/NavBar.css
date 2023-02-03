@@ -6,7 +6,7 @@
     background-color: rgba(0, 0, 0, 0.288);
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
-    /* z-index: 100; */
+    z-index: 100;
 }
 
 /* 
@@ -30,7 +30,8 @@ NavBar Container css Start
     top: 0;
     left: 0;
     width: 100%;
-    /* z-index: -111; */
+    z-index: 111;
+    user-select: none;
 
 }
 
@@ -94,6 +95,16 @@ NavBar Links css Start
     padding-bottom: 2.1rem;
     color: #FFFFFF;
     cursor: pointer;
+    transition: 0.3s;
+
+}
+
+.NavBar-links ul li a:hover{
+    border-bottom: 2px solid #F49F0A;
+    font-weight: bold;
+    color: #F49F0A !important;
+    transition: 0.3s;
+
 }
 
 /* 
@@ -138,22 +149,13 @@ menu-button container css End
 Responsive css Start in nav bar --1280px 
 *********************************************************************** 
 */
-@media screen and (max-width:1280px) {
-    html {
-        font-size: 50%;
-    }
-}
 
 /* 
 ********************************************************************
 Responsive css Start in nav bar --1070px 
 *********************************************************************** 
 */
-@media screen and (max-width:1070px) {
-    html {
-        font-size: 45%;
-    }
-}
+
 
 /* 
 ********************************************************************
@@ -185,7 +187,6 @@ links list container for mobile size css Start
         gap: 4rem;
         justify-content: center;
         align-items: center;
-        backdrop-filter: blur(10px);
     }
 
     .NavBar-links ul li a {

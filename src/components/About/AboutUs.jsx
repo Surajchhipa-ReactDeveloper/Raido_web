@@ -1,6 +1,8 @@
-import React from "react";
+import React, { useEffect } from "react";
 import PrimeryButton from "../../Buttons/PrimeryButton";
 import './AboutUs.css';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const arrow = (
     <svg xmlns="http://www.w3.org/2000/svg" width="22" height="17.811" viewBox="0 0 22 17.811">
@@ -16,17 +18,20 @@ const arrow = (
 )
 
 const AboutUs = () => {
+    useEffect(() =>{
+        AOS.init();
+    },[])
     return (
         <>
             <div className="About-container" id="AboutUs">
                 <div className="about-color-container">
-                    <div className="about-heading-container">
+                    <div className="about-heading-container" data-aos = "fade-up">
                         <h1>About Us</h1>
                     </div>
-                    <div className="about-pera-container">
+                    <div className="about-pera-container" data-aos = "fade-up">
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
                     </div>
-                    <div className="upar-container">
+                    <div className="upar-container" data-aos = "fade-up">
                         <div className="complete-trips tour-guid-box ">
                             <div className="about-tour-guid-box-number border-left">268</div>
                             <div className="about-tour-guid-box-text border-left">Completed Trips</div>

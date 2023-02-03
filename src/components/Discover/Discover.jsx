@@ -1,8 +1,13 @@
-import React from "react";
+import React, { useEffect } from "react";
 import './Discover.css'
 import DiscoverCard from "./DiscoverCard";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const Discover = () => {
+    useEffect(() =>{
+        AOS.init();
+    },[])
     return (
         <>
             <div className="Discover-container" id="Discover">
@@ -13,7 +18,7 @@ const Discover = () => {
                     <div className="discover-pera-container">
                         <p>Lets's see the world with us with you and your family.</p>
                     </div>
-                    <div className="Card-container">
+                    <div className="Card-container" data-aos = "fade-up">
                         <DiscoverCard
                             id="DCard-1"
                             title="Norway"

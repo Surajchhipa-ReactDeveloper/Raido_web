@@ -5,12 +5,14 @@ import './index.css';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter } from 'react-router-dom';
 import { lazy } from 'react';
+import Loading from './components/Loading/Loading';
 const App = lazy(() => import('./App'));
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <BrowserRouter>
-    <Suspense fallback = {<h1>PLEASE WAIT...</h1>}>
+    <Suspense fallback = {<Loading/>}>
       <App />
     </Suspense>
   </BrowserRouter>

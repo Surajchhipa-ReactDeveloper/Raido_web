@@ -1,6 +1,6 @@
 import React from "react";
 import PrimeryButton from "../../Buttons/PrimeryButton";
-import './Home.css'
+import './Home.css';
 
 let PrimeryButtonLogo = (
     <svg id="a775bb2801f9202e26e4d4c6dc2d86aa" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
@@ -15,7 +15,7 @@ const Home = () => {
         document.body.scrollTop = 500
         document.documentElement.scrollTop = 500
     }
-    
+
     return (
         <>
             <div className="home-gradiant-container" id="Home">

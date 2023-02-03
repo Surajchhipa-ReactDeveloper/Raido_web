@@ -10,7 +10,7 @@ Home section-container css Start
 *********************************************************************** 
 */
 .home-gradiant-container {
-    background-image: url("/src/Assets/Home-background-img.jpg");
+    background-image: url("/public/Assets/Home-background-img.jpg");
     height: 100vh;
     /* z-index: -1111; */
     background-repeat: no-repeat;

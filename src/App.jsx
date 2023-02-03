@@ -9,6 +9,7 @@ import Journals from './components/Journals/Journals';
 import AboutUs from './components/About/AboutUs';
 import NavBar from './components/NavBar/NavBar';
 import Footer from './components/Footer/Footer';
+import RadioVideo from './components/RadioVideo/RadioVideo';
 
 const App = () => {
 
@@ -20,7 +21,8 @@ const App = () => {
       <Discover />
       <Blog />
       <Journals />
-      <Gallery />
+      <RadioVideo/>
+      <Gallery /> 
       <Contact />
       <Footer />
     </>

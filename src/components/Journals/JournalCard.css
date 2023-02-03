@@ -9,6 +9,7 @@ Journals Card container css Start
     display: flex;
     flex-direction: column;
     gap: 0;
+    user-select: none;
 }
 
 /* 
@@ -111,3 +112,9 @@ Journals Card Date and Share icon container css Start
 Journals Card Date and Share icon container css End
 *********************************************************************** 
 */
+
+@media screen and (max-width:515px) {
+    .JournalCard-container{
+        width: 90%;
+    }
+}

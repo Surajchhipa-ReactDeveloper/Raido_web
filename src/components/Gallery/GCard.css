@@ -1,0 +1,33 @@
+.card-container{
+    min-width: calc((100%) / 5);
+    /* height: 50rem; */
+    /* border: 2px solid green; */
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-container-img{
+    min-width: 90%;
+    object-fit: cover;
+    user-select: none;
+}
+
+@media screen and (max-width:930px) {
+    .card-container{
+        min-width: calc((100%) / 3);
+    }
+}
+
+@media screen and (max-width:670px) {
+    .card-container{
+        min-width: calc((100%) / 2);
+    }
+}
+
+@media screen and (max-width:450px) {
+    .card-container{
+        min-width: calc((100%) / 1);
+    }
+}

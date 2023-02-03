@@ -9,7 +9,7 @@ const NavBar = (props) => {
         <>
             <div className="blur-conainer"></div>
             <div className="NavBar-container">
-                <div className="NavBar-logo"><Link to="Home" >Radio.</Link></div>
+                <div className="NavBar-logo"><Link to="Home" >Raido.</Link></div>
                 <div className="NavBar-links">
                     <ul className={!menu ? "Navigation-links" : "mobile-size"}>
                         <li className="nav-item" >
