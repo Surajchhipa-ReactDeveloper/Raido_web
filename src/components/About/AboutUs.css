@@ -48,7 +48,7 @@ About us image container css Start
 .about-img-container {
     width: 50%;
     height: 100vh;
-    /* border: 2px solid black; */
+    /* border: 2px solid rgb(245, 236, 236); */
     /* background-color: black; */
     z-index: -11;
     background-image: url('/public/Assets/aboutus.jpg');
@@ -72,6 +72,7 @@ About us heading css Start
     color: var(--Heading-Color);
     font-size: var(--Heading-Font);
     font-family: var(--PlayFair);
+    /* border: 2px solid green; */
 }
 
 /* 
